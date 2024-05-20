@@ -35,12 +35,25 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  padding: 0px 16px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6 rem;
+  font-weight: 600;
+  border-radius: 999px;
+  background: #171100;
+}
+
 .break-all {
   word-break: break-all;
 }
 
 /* ==================header============ */
-.header  {
+.header {
   background: #fffcf4;
 }
 
@@ -87,19 +100,6 @@ a {
   background: #171100;
   left: 21px;
   bottom: 6px;
-}
-
-.btn {
-  display: inline-block;
-  min-width: 118px;
-  padding: 0px 16px;
-  line-height: 50px;
-  color: #fff;
-  text-align: center;
-  font-size: 1.6 rem;
-  font-weight: 600;
-  border-radius: 999px;
-  background: #171100;
 }
 
 .header .btn-sign-up {
@@ -356,7 +356,6 @@ a {
 
 .pop .course-list .course-item:hover {
   border: 1px solid transparent;
-
   border-radius: 12px;
   background: #fff;
   box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
@@ -387,9 +386,7 @@ a {
 
 .pop .course-item .title {
   color: #171100;
-  font-family: Poppins;
   font-size: 1.8rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 167%; /* 166.667% */
 }
@@ -397,9 +394,7 @@ a {
 .pop .course-item .value {
   margin-left: 6px;
   color: #fea31b;
-  font-family: Poppins;
   font-size: 1.6rem;
-  font-style: normal;
   font-weight: 400;
   line-height: 175%; /* 175% */
 }
@@ -407,17 +402,13 @@ a {
 .pop .course-item .desc {
   margin-top: 6px;
   color: #5f5b53;
-  font-family: Poppins;
   font-size: 1.4rem;
-  font-style: normal;
   line-height: 1.86; /* 185.714% */
 }
 
 .pop .course-item .price {
   color: #171100;
-  font-family: Poppins;
   font-size: 1.8rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.67; /* 166.667% */
 }
